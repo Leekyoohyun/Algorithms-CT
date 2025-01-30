@@ -4,6 +4,7 @@ import java.util.Arrays;
 public class SortStrings {
     public static int[] solution(String my_string) {
 
+
         int i= 0;
         String newString = my_string.replaceAll("[a-z]","");
         String[] arr = newString.split("");
