@@ -27,4 +27,13 @@ public class Palindrome {
         }
         return true;
     }
+
+    public boolean isPalindrome2(String s){
+        //모두 소문자로
+        String s_filtered = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
+        //문자열 뒤집고 String으로 변경
+        String s_reversed = new StringBuilder(s_filtered).reverse().toString();
+        //두 문자열 동일한지 비교
+        return s_filtered.equals(s_reversed);
+    }
 }
