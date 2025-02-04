@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.nio.Buffer;
 import java.util.StringTokenizer;
 
+/*합, 차, 곱 모두 같을거고 BufferedReaderm StringTokenizer 활용예제*/
+
 public class Sum2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,5 +18,6 @@ public class Sum2 {
         int b = Integer.parseInt(st.nextToken());
 
         System.out.println(a + b);
+        System.out.println(a/b+a%b);
     }
 }
