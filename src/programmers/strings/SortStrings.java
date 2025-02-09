@@ -1,6 +1,10 @@
 package src.programmers.strings;
 import java.util.Arrays;
 
+/**
+ * 문자열과 숫자가 합쳐진 문자열을 받아 숫자만 출력.
+ * **/
+
 public class SortStrings {
     public static int[] solution(String my_string) {
 
