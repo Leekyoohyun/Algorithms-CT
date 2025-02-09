@@ -5,6 +5,7 @@ import java.util.Arrays;
 /*
 * my_str을 n씩 잘라서 배열로 넣기
 * substring() 메서드 활용
+* substring(beginning, end)
 */
 
 public class CutStrings {
