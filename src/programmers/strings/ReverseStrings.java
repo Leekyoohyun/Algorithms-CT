@@ -1,4 +1,4 @@
-package src.strings;
+package src.programmers.strings;
 
 public class ReverseStrings {
     public static String solution(String my_string) {

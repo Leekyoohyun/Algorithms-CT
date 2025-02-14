@@ -1,4 +1,4 @@
-package src.maths;
+package src.programmers.maths;
 
 public class SoEasy {
     public static void main(String[] args) {

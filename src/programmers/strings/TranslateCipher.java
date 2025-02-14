@@ -1,4 +1,4 @@
-package src.strings;
+package src.programmers.strings;
 
 /*
 * 암호화된 문자열 cipher를 주고받습니다.
