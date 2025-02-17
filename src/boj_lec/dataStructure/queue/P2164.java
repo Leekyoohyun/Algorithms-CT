@@ -1,11 +1,10 @@
-package src.boj_lec.dataStructure.stack;
+package src.boj_lec.dataStructure.queue;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class P2164 {
     public static void main(String[] args) throws IOException  {
