@@ -29,6 +29,8 @@ public class P1427 {
         }
     }*/
 
+    //근데 위에꺼가 더 빠른데?
+
     // selection sort 쓰기
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
